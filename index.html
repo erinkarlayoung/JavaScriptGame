@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Word Jumble</title>
+
+  <link rel="stylesheet" href="JavascriptCapstone.css">
+
+</head>
+<body>
+	<div id="container">
+		<span><h1>WORD JUMBLE</h1></span>
+		<h5><em>A shady, fly-by-night clone of many other word games!</em></h5>
+		<style>
+			body{
+			background-image: url("letters.jpg");
+			}
+		</style>	
+	</div>
+	<div id="timer"></div>
+	<div id="game">
+		<div id="container">
+			<div id="directions">
+			<span><p>Click the button to generate seven consonants and two vowels. Make as many 3+ letter words as you can in 60 seconds. Word point value is equal to the number of letters in the word. Only real words count towards your final score; please check your words using the link below!</p></span>
+			<button id="start">START</button>
+			<div id="randomLetters"></div>
+			<p>Your Letters:</p>
+			<div id="letter">
+				<ol></ol>
+			</div>
+			<form id="word">
+				WORD:<input type="text" name="word"><button>SUBMIT</button>
+			</form>
+			<div id="submitted">
+			<ol></ol>
+			<div id="box"></div>
+		</div>
+		<a href="https://www.anagrammer.com/">Is it a word?</a>
+
+	</div>
+  	<script src="JavascriptCapstone.js"></script>
+</body>
+</html>
